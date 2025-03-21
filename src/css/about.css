@@ -1,0 +1,72 @@
+.about-section{
+    margin: 2rem;
+}
+
+
+.glassy-card {
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(44, 44, 44, 0.5), rgba(196, 196, 196, 0.2));
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+
+    & span {
+        color: rgb(170, 170, 170);
+    }
+}
+
+.glassy-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transform: skewX(-30deg);
+    transition: all 0.8s ease-in-out;
+    opacity: 0;
+}
+
+.glassy-card:hover {
+    transform: scale(1.05);
+}
+
+.glassy-card:hover::before {
+    left: 150%;
+    opacity: 1;
+}
+
+.about-title {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+
+.about-section .grid {
+    gap: 2rem;
+}
+
+.card-list{
+    margin: 2rem;
+}
+
+.about-section .container{
+    max-width: 90%;
+    margin: auto;
+}
+
+
+@media (max-width:1200px) {
+
+    .about-section .container {
+        max-width: 100%;
+            margin: auto;
+        }
+}

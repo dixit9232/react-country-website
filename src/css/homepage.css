@@ -1,0 +1,36 @@
+.home-page .container {
+    margin: 9.6rem auto;
+    gap: 6.4rem;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+.hero-section {
+    margin-bottom: 2rem;
+}
+
+.hero-section p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.56;
+}
+
+.hero-section button {
+    margin-top: 4rem;
+}
+
+
+@media (max-width: 768px) {
+    
+    .hero-section{
+        order: 1;
+    }
+}

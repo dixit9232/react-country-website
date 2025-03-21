@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1411778724,
+    "interestingFact": "China is the world's most populous country."
+  },
+  {
+    "id": 2,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1406631776,
+    "interestingFact": "India has the world's largest democracy."
+  },
+  {
+    "id": 3,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": 332915073,
+    "interestingFact": "The U.S. has the world's largest economy."
+  },
+  {
+    "id": 4,
+    "countryName": "Indonesia",
+    "capital": "Jakarta",
+    "population": 277534122,
+    "interestingFact": "Indonesia is the world's largest island country."
+  },
+  {
+    "id": 5,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "population": 231402117,
+    "interestingFact": "Pakistan has the second-highest peak, K2."
+  },
+  {
+    "id": 6,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 214327856,
+    "interestingFact": "Brazil is home to the Amazon Rainforest."
+  },
+  {
+    "id": 7,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 146171015,
+    "interestingFact": "Russia is the largest country by area."
+  },
+  {
+    "id": 8,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 126014024,
+    "interestingFact": "Mexico introduced chocolate to the world."
+  },
+  {
+    "id": 9,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125681593,
+    "interestingFact": "Tokyo is the most populous metropolitan area in the world."
+  },
+  {
+    "id": 10,
+    "countryName": "Ethiopia",
+    "capital": "Addis Ababa",
+    "population": 120283026,
+    "interestingFact": "Ethiopia is considered the birthplace of coffee."
+  },
+  {
+    "id": 11,
+    "countryName": "Philippines",
+    "capital": "Manila",
+    "population": 113878757,
+    "interestingFact": "The Philippines has over 7,600 islands."
+  },
+  {
+    "id": 12,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 112716598,
+    "interestingFact": "Egypt is home to the Great Pyramid of Giza."
+  },
+  {
+    "id": 13,
+    "countryName": "Vietnam",
+    "capital": "Hanoi",
+    "population": 98858971,
+    "interestingFact": "Vietnam is the world's second-largest coffee exporter."
+  },
+  {
+    "id": 14,
+    "countryName": "Turkey",
+    "capital": "Ankara",
+    "population": 86987132,
+    "interestingFact": "Turkey is the only country spanning two continents."
+  },
+  {
+    "id": 15,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 83129285,
+    "interestingFact": "Germany is the birthplace of the printing press."
+  },
+  {
+    "id": 16,
+    "countryName": "Iran",
+    "capital": "Tehran",
+    "population": 85775948,
+    "interestingFact": "Iran is home to one of the world's oldest civilizations."
+  },
+  {
+    "id": 17,
+    "countryName": "Thailand",
+    "capital": "Bangkok",
+    "population": 70736508,
+    "interestingFact": "Thailand is the only Southeast Asian country never colonized."
+  },
+  {
+    "id": 18,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": 67530172,
+    "interestingFact": "The UK is home to the world's oldest parliamentary democracy."
+  },
+  {
+    "id": 19,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 65426179,
+    "interestingFact": "France is the most visited country in the world."
+  },
+  {
+    "id": 20,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 59066237,
+    "interestingFact": "Rome is home to the Vatican, the world's smallest country."
+  }
+]

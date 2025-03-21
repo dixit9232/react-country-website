@@ -1,0 +1,168 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Root Variables */
+:root {
+    --text-primary: #f9f9f9;
+    --background-color: #242424;
+}
+
+/* Base Styles */
+html {
+    font-size: 62.5%;
+    font-family: 'Mona Sans', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-primary);
+}
+
+/* Container */
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.btn {
+    background: linear-gradient(to left, #5454548f, #89898983);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    transition: background 0.2s ease-in-out;
+    color: whitesmoke;
+    gap: 0.5rem;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-transform: capitalize;
+    border: 1px solid #545454;
+    
+}
+
+
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    line-height: 1.56;
+}
+
+a,
+p,
+li {
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Heading Sizes */
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3.0rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2.0rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+}
+
+/* Grid System */
+.grid {
+    display: grid;
+}
+
+.grid-two-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    html {
+        font-size: 56.2%;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+
+    .grid-three-cols,
+    .grid-four-cols {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+
+    .grid-two-cols,
+    .grid-three-cols {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 40%;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
