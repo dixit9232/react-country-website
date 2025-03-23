@@ -2,11 +2,12 @@ import { FiArrowUpRight } from "react-icons/fi";
 import "../css/homepage.css";
 import { NavLink } from "react-router-dom";
 import { AboutPage } from "./AboutPage";
+import { ContactPage } from "./ContactPage";
 
 export const HomePage = () => {
   return (
     <>
-      <MainSection /> 
+      <MainSection />
       <AboutPage />
     </>
   );
@@ -24,7 +25,7 @@ const MainSection = () => {
           </p>
           <button className="btn" aria-label="Start exploring countries">
             <NavLink to="/country">
-              Start Exploring <FiArrowUpRight size={20} />
+              Start Exploring <FiArrowUpRight />
             </NavLink>
           </button>
         </section>

@@ -39,15 +39,27 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 1.6rem;
-    transition: background 0.2s ease-in-out;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
     color: whitesmoke;
     gap: 0.5rem;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     text-transform: capitalize;
     border: 1px solid #545454;
-    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: linear-gradient(to left, #545454cc, #898989bb);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
 }
 
 
