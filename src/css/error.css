@@ -1,0 +1,57 @@
+/* Center the error page */
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Error title styling */
+.error-title {
+    font-size: 3rem;
+    color: #e74747;
+    margin-bottom: 10px;
+}
+
+/* Error message styling */
+.error-message {
+    font-size: 1.4rem;
+    color: #c4dbd6;
+    margin-bottom: 20px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .error-title {
+        font-size: 2rem;
+    }
+
+    .error-message {
+        font-size: 1rem;
+    }
+
+    .error-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .error-title {
+        font-size: 1.8rem;
+    }
+
+    .error-message {
+        font-size: 0.9rem;
+    }
+
+    .error-button {
+        font-size: 0.85rem;
+        padding: 6px 14px;
+    }
+}
